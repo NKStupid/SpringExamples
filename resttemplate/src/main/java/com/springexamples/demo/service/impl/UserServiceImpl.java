@@ -17,7 +17,7 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public String testUserService() 
 	{
-		final String uri = "http://localhost:8080/users";
+		final String uri = "https://2biz8ozb25.execute-api.ap-northeast-1.amazonaws.com/dev/pets";
 		
 		HttpHeaders headers = new HttpHeaders();
 		headers.set("Header", "value");
